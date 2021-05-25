@@ -14,18 +14,18 @@ public class Robot {
         Stack d3 = new Stack();
         Stack d4 = new Stack();
         
-      
         int cont1 = 0;
         int cont2 = 0;
         int cont3 = 0;
         int cont4 = 0;
         int b;
 
-        String v[] = new String[4];
+        String dueño[] = new String[4];
+        
         for (int i = 0; i < 4; i++) {
             System.out.println("Digite el nombre del dueño"+ " " + (i + 1));
             System.out.println("--------------------------");
-            v[i] = entrada.next();
+            dueño[i] = entrada.next();
         }
 
         System.out.println("Digite la cantidad de contenedores que tiene el barco");
@@ -69,37 +69,37 @@ public class Robot {
             b = entrada.nextInt();
 
             if (b == 1) {
-                System.out.println("el barco tiene:" + a + " contenedores de los cuales :" + cont1 + " le peretenecen a el dueño " + v[0] + " el contenido  del contenedor es : " + d1);
+                System.out.println("el barco tiene:" + a + " contenedores de los cuales :" + cont1 + " le peretenecen a el dueño " + dueño[0] + " el contenido  del contenedor es : " + d1);
                 System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
                 b = entrada.nextInt();
             }
 
             if (b == 2) {
 
-                System.out.println("el barco tiene:" + a + " contenedores de los cuales :" + cont2 + " le peretenecen a el dueño " + v[1] + " el contenido  del contenedor es : " + d2);
+                System.out.println("el barco tiene:" + a + " contenedores de los cuales :" + cont2 + " le peretenecen a el dueño " + dueño[1] + " el contenido  del contenedor es : " + d2);
                  System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
             }
 
             if (b == 3) {
-                System.out.println("el barco tiene:" + a + " contenedores de los cuales :" + cont3 + " le peretenecen a el dueño " + v[2] + " el contenido  del contenedor es  : " + d3);
+                System.out.println("el barco tiene:" + a + " contenedores de los cuales :" + cont3 + " le peretenecen a el dueño " + dueño[2] + " el contenido  del contenedor es  : " + d3);
                 System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
 
             }
 
             if (b == 4) {
-                System.out.println("el barco tiene:" + a + " contenedores de los cuales :" + cont4 + " le peretenecen a el dueño " + v[3] + " el contenido  del contenedor es : " + d4);
+                System.out.println("el barco tiene:" + a + " contenedores de los cuales :" + cont4 + " le peretenecen a el dueño " + dueño[3] + " el contenido  del contenedor es : " + d4);
                 System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
 
             }
 
             if (b == 5) {
-                System.out.println("contenedor del dueño " + v[0] + d1);
+                System.out.println("contenedor del dueño " + dueño[0] + d1);
                 System.out.println("----------------------------------");
-                System.out.println("contenedor del dueño " + v[1] + d2);
+                System.out.println("contenedor del dueño " + dueño[1] + d2);
                 System.out.println("----------------------------------");
-                System.out.println("contenedor del dueño " + v[2] + d3);
+                System.out.println("contenedor del dueño " + dueño[2] + d3);
                 System.out.println("----------------------------------");
-                System.out.println("contenedor del dueño " + v[3] + d4);
+                System.out.println("contenedor del dueño " + dueño[3] + d4);
             }
 
         } while (b <= 5);
