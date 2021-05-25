@@ -25,12 +25,13 @@ public class Robot {
 
         String v[] = new String[4];
         for (int i = 0; i < 4; i++) {
-            System.out.println("Digite el nombre del dueño" + (i + 1));
+            System.out.println("Digite el nombre del dueño"+ " " + (i + 1));
             System.out.println("--------------------------");
             v[i] = entrada.next();
         }
 
-        System.out.println("digite la cantidad de contenedores que tiene el barco");
+        System.out.println("Digite la cantidad de contenedores que tiene el barco");
+        System.out.println("-----------------------------------------------------");
         int a = entrada.nextInt();
 
         for (int i = 0; i < a; i++) {
@@ -63,28 +64,34 @@ public class Robot {
         }
 
         do {
-            System.out.println("digite alguno de los siguientes  numeros, para ver los contenedores que le pertenecen  a cada uno de los dueños : \n  digite el numero 1 apara ver los contenedores del primer dueño,\n  el 2 para el segundo dueño \n  el 3 para el tercer dueño\n  el"
+            System.out.println("-----------------------------------------------------");
+            System.out.println("digite alguno de los siguientes  numeros, para ver los contenedores que le pertenecen  a cada uno de los dueños : \n digite el numero 1 apara ver los contenedores del primer dueño,\n  el 2 para el segundo dueño \n  el 3 para el tercer dueño\n  el"
                     + " 4 para el cuarto dueño \n  el numero 5 para mostar todos los contenedores\n   y el numero 6 para  salir\n ");
 
             b = entrada.nextInt();
 
             if (b == 1) {
                 System.out.println("el barco tiene:" + a + " contenedores de los cuales :" + cont1 + " le peretenecen a el dueño " + v[0] + " el contenido  del contenedor es : " + d1);
-
+                System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
                 b = entrada.nextInt();
             }
 
             if (b == 2) {
 
                 System.out.println("el barco tiene:" + a + " contenedores de los cuales :" + cont2 + " le peretenecen a el dueño " + v[1] + " el contenido  del contenedor es : " + d2);
+                 System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
             }
 
             if (b == 3) {
                 System.out.println("el barco tiene:" + a + " contenedores de los cuales :" + cont3 + " le peretenecen a el dueño " + v[2] + " el contenido  del contenedor es  : " + d3);
+                System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
+
             }
 
             if (b == 4) {
                 System.out.println("el barco tiene:" + a + " contenedores de los cuales :" + cont4 + " le peretenecen a el dueño " + v[3] + " el contenido  del contenedor es : " + d4);
+                System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
+
             }
 
             if (b == 5) {
