@@ -63,43 +63,43 @@ public class Robot {
 
         do {
             System.out.println("-----------------------------------------------------");
-            System.out.println("digite alguno de los siguientes  numeros, para ver los contenedores que le pertenecen  a cada uno de los dueños : \n digite el numero 1 apara ver los contenedores del primer dueño,\n  el 2 para el segundo dueño \n  el 3 para el tercer dueño\n  el"
+            System.out.println("Digite alguno de los siguientes  numeros, para ver los contenedores que le pertenecen  a cada uno de los dueños : \n digite el numero 1 apara ver los contenedores del primer dueño,\n  el 2 para el segundo dueño \n  el 3 para el tercer dueño\n  el"
                     + " 4 para el cuarto dueño \n  el numero 5 para mostar todos los contenedores\n   y el numero 6 para  salir\n ");
 
             opcion2 = entrada.nextInt();
 
             if (opcion2 == 1) {
-                System.out.println("el barco tiene:" + CantidadContenedores + " contenedores de los cuales :" + contador1 + " le peretenecen a el dueño " + CrearDueño[0] + " el contenido  del contenedor es : " + dueño1);
+                System.out.println("El barco tiene:" + CantidadContenedores + " contenedores de los cuales :" + contador1 + " le pertenecen a el dueño " + CrearDueño[0] + " el contenido  del contenedor es : " + dueño1);
                 System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
                 opcion2 = entrada.nextInt();
             }
 
             if (opcion2 == 2) {
 
-                System.out.println("el barco tiene:" + CantidadContenedores + " contenedores de los cuales :" + contador2 + " le peretenecen a el dueño " + CrearDueño[1] + " el contenido  del contenedor es : " + dueño2);
+                System.out.println("El barco tiene:" + CantidadContenedores + " contenedores de los cuales :" + contador2 + " le pertenecen a el dueño " + CrearDueño[1] + " el contenido  del contenedor es : " + dueño2);
                  System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
             }
 
             if (opcion2 == 3) {
-                System.out.println("el barco tiene:" + CantidadContenedores + " contenedores de los cuales :" + contador3 + " le peretenecen a el dueño " + CrearDueño[2] + " el contenido  del contenedor es  : " + dueño3);
+                System.out.println("El barco tiene:" + CantidadContenedores + " contenedores de los cuales :" + contador3 + " le pertenecen a el dueño " + CrearDueño[2] + " el contenido  del contenedor es  : " + dueño3);
                 System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
 
             }
 
             if (opcion2 == 4) {
-                System.out.println("el barco tiene:" + CantidadContenedores + " contenedores de los cuales :" + contador4 + " le peretenecen a el dueño " + CrearDueño[3] + " el contenido  del contenedor es : " + dueño4);
+                System.out.println("El barco tiene:" + CantidadContenedores + " contenedores de los cuales :" + contador4 + " le pertenecen a el dueño " + CrearDueño[3] + " el contenido  del contenedor es : " + dueño4);
                 System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
 
             }
 
             if (opcion2 == 5) {
-                System.out.println("contenedor del dueño " + CrearDueño[0] + dueño1);
+                System.out.println("Contenedor del dueño " + CrearDueño[0] + dueño1);
                 System.out.println("----------------------------------");
-                System.out.println("contenedor del dueño " + CrearDueño[1] + dueño2);
+                System.out.println("Contenedor del dueño " + CrearDueño[1] + dueño2);
                 System.out.println("----------------------------------");
-                System.out.println("contenedor del dueño " + CrearDueño[2] + dueño3);
+                System.out.println("Contenedor del dueño " + CrearDueño[2] + dueño3);
                 System.out.println("----------------------------------");
-                System.out.println("contenedor del dueño " + CrearDueño[3] + dueño4);
+                System.out.println("Contenedor del dueño " + CrearDueño[3] + dueño4);
             }
 
         } while (opcion2 <= 5);
