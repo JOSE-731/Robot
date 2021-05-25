@@ -1,13 +1,11 @@
 package robot;
-
-import java.util.Random;
 import java.util.Scanner;
 import java.util.Stack;
 
 public class Robot {
 
     public static void main(String[] args) {
-        Random rbot = new Random();
+  
         int nm = 0;
         Scanner entrada = new Scanner(System.in);
         
@@ -16,7 +14,7 @@ public class Robot {
         Stack d3 = new Stack();
         Stack d4 = new Stack();
         
-        int cont = 0;
+      
         int cont1 = 0;
         int cont2 = 0;
         int cont3 = 0;
